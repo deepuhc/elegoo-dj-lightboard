@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 650" font-family="monospace">
+  <text x="425" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">Step 5: RGB LED Wiring</text>
+
+  <!-- RGB LED close-up -->
+  <rect x="30" y="50" width="250" height="200" rx="8" fill="#FAFAFA" stroke="#CCC" stroke-width="1"/>
+  <text x="155" y="75" text-anchor="middle" font-size="13" font-weight="bold" fill="#555">RGB LED (4 legs)</text>
+
+  <!-- LED body -->
+  <ellipse cx="155" cy="130" rx="20" ry="25" fill="#EEE" stroke="#999" stroke-width="2"/>
+  <text x="155" y="135" text-anchor="middle" font-size="8" fill="#666">LED</text>
+
+  <!-- 4 legs -->
+  <line x1="125" y1="155" x2="125" y2="210" stroke="#f44336" stroke-width="3"/>
+  <text x="125" y="225" text-anchor="middle" font-size="9" fill="#f44336">Red</text>
+  <text x="125" y="237" text-anchor="middle" font-size="8" fill="#999">shortest</text>
+
+  <line x1="148" y1="155" x2="148" y2="220" stroke="#333" stroke-width="3"/>
+  <text x="148" y="235" text-anchor="middle" font-size="9" fill="#333">GND</text>
+  <text x="148" y="247" text-anchor="middle" font-size="8" fill="#f44336" font-weight="bold">LONGEST</text>
+
+  <line x1="165" y1="155" x2="165" y2="210" stroke="#4CAF50" stroke-width="3"/>
+  <text x="165" y="225" text-anchor="middle" font-size="9" fill="#4CAF50">Green</text>
+
+  <line x1="185" y1="155" x2="185" y2="210" stroke="#2196F3" stroke-width="3"/>
+  <text x="185" y="225" text-anchor="middle" font-size="9" fill="#2196F3">Blue</text>
+
+  <!-- Flat edge indicator -->
+  <text x="155" y="105" text-anchor="middle" font-size="8" fill="#666">flat edge → GND side</text>
+  <line x1="135" y1="108" x2="135" y2="120" stroke="#999" stroke-width="1" stroke-dasharray="2,2"/>
+
+  <!-- Breadboard wiring diagram -->
+  <rect x="320" y="60" width="500" height="540" rx="8" fill="#F5F5DC" stroke="#999" stroke-width="2"/>
+  <text x="570" y="85" text-anchor="middle" font-size="14" font-weight="bold" fill="#555">Breadboard Wiring</text>
+
+  <!-- Power rails -->
+  <rect x="340" y="95" width="460" height="20" rx="3" fill="#FFEBEE"/>
+  <text x="335" y="110" text-anchor="end" font-size="12" fill="#f44336">+5V</text>
+  <rect x="340" y="120" width="460" height="20" rx="3" fill="#E3F2FD"/>
+  <text x="335" y="135" text-anchor="end" font-size="12" fill="#1565C0">GND</text>
+
+  <!-- Row labels -->
+  <text x="350" y="170" font-size="9" fill="#666">Row</text>
+
+  <!-- Row 10: Red leg of LED -->
+  <text x="350" y="195" font-size="10" fill="#666">10</text>
+  <circle cx="380" cy="192" r="5" fill="#f44336" stroke="#b71c1c" stroke-width="1"/>
+  <circle cx="400" cy="192" r="5" fill="#EEE" stroke="#999" stroke-width="1"/>
+  <circle cx="420" cy="192" r="5" fill="#EEE" stroke="#999" stroke-width="1"/>
+  <circle cx="440" cy="192" r="5" fill="#EEE" stroke="#999" stroke-width="1"/>
+  <circle cx="460" cy="192" r="5" fill="#EEE" stroke="#999" stroke-width="1"/>
+  <text x="490" y="196" font-size="9" fill="#f44336">← Red leg here</text>
+
+  <!-- Row 11: GND (longest leg) -->
+  <text x="350" y="225" font-size="10" fill="#666">11</text>
+  <circle cx="380" cy="222" r="5" fill="#333" stroke="#111" stroke-width="1"/>
+  <circle cx="400" cy="222" r="5" fill="#333" stroke="#111" stroke-width="1"/>
+  <circle cx="420" cy="222" r="5" fill="#EEE" stroke="#999" stroke-width="1"/>
+  <circle cx="440" cy="222" r="5" fill="#EEE" stroke="#999" stroke-width="1"/>
+  <circle cx="460" cy="222" r="5" fill="#EEE" stroke="#999" stroke-width="1"/>
+  <text x="490" y="226" font-size="9" fill="#333">← GND leg (longest) + wire to GND rail</text>
+
+  <!-- Row 12: Green leg -->
+  <text x="350" y="255" font-size="10" fill="#666">12</text>
+  <circle cx="380" cy="252" r="5" fill="#4CAF50" stroke="#2E7D32" stroke-width="1"/>
+  <circle cx="400" cy="252" r="5" fill="#EEE" stroke="#999" stroke-width="1"/>
+  <circle cx="420" cy="252" r="5" fill="#EEE" stroke="#999" stroke-width="1"/>
+  <circle cx="440" cy="252" r="5" fill="#EEE" stroke="#999" stroke-width="1"/>
+  <circle cx="460" cy="252" r="5" fill="#EEE" stroke="#999" stroke-width="1"/>
+  <text x="490" y="256" font-size="9" fill="#4CAF50">← Green leg here</text>
+
+  <!-- Row 13: Blue leg -->
+  <text x="350" y="285" font-size="10" fill="#666">13</text>
+  <circle cx="380" cy="282" r="5" fill="#2196F3" stroke="#1565C0" stroke-width="1"/>
+  <circle cx="400" cy="282" r="5" fill="#EEE" stroke="#999" stroke-width="1"/>
+  <circle cx="420" cy="282" r="5" fill="#EEE" stroke="#999" stroke-width="1"/>
+  <circle cx="440" cy="282" r="5" fill="#EEE" stroke="#999" stroke-width="1"/>
+  <circle cx="460" cy="282" r="5" fill="#EEE" stroke="#999" stroke-width="1"/>
+  <text x="490" y="286" font-size="9" fill="#2196F3">← Blue leg here</text>
+
+  <!-- Resistors -->
+  <text x="570" y="170" text-anchor="middle" font-size="12" font-weight="bold" fill="#555">Resistors (220Ω each)</text>
+
+  <!-- Red resistor -->
+  <rect x="440" y="188" width="60" height="8" rx="4" fill="#D4A373" stroke="#8B6914" stroke-width="1"/>
+  <text x="530" y="196" font-size="8" fill="#666">220Ω</text>
+  <line x1="500" y1="192" x2="560" y2="192" stroke="#f44336" stroke-width="2"/>
+  <text x="580" y="196" font-size="9" fill="#f44336">→ Pin 6</text>
+
+  <!-- Green resistor -->
+  <rect x="440" y="248" width="60" height="8" rx="4" fill="#D4A373" stroke="#8B6914" stroke-width="1"/>
+  <text x="530" y="256" font-size="8" fill="#666">220Ω</text>
+  <line x1="500" y1="252" x2="560" y2="252" stroke="#4CAF50" stroke-width="2"/>
+  <text x="580" y="256" font-size="9" fill="#4CAF50">→ Pin 5</text>
+
+  <!-- Blue resistor -->
+  <rect x="440" y="278" width="60" height="8" rx="4" fill="#D4A373" stroke="#8B6914" stroke-width="1"/>
+  <text x="530" y="286" font-size="8" fill="#666">220Ω</text>
+  <line x1="500" y1="282" x2="560" y2="282" stroke="#2196F3" stroke-width="2"/>
+  <text x="580" y="286" font-size="9" fill="#2196F3">→ Pin 3</text>
+
+  <!-- GND wire -->
+  <line x1="400" y1="222" x2="400" y2="130" stroke="#333" stroke-width="2" stroke-dasharray="4,2"/>
+  <text x="410" y="160" font-size="8" fill="#333">black wire to GND rail</text>
+
+  <!-- Connection to Arduino box -->
+  <rect x="340" y="340" width="460" height="240" rx="8" fill="#E8F5E9" stroke="#66BB6A" stroke-width="1"/>
+  <text x="570" y="365" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E7D32">Connections Summary</text>
+
+  <!-- Table -->
+  <text x="370" y="395" font-size="11" fill="#333" font-weight="bold">From (Arduino Pin)</text>
+  <text x="560" y="395" font-size="11" fill="#333" font-weight="bold">To (Breadboard)</text>
+  <text x="720" y="395" font-size="11" fill="#333" font-weight="bold">Wire Color</text>
+
+  <line x1="360" y1="402" x2="780" y2="402" stroke="#999" stroke-width="1"/>
+
+  <text x="370" y="425" font-size="11" fill="#333">Pin 6 (PWM)</text>
+  <text x="560" y="425" font-size="11" fill="#333">→ Resistor → Red leg</text>
+  <text x="720" y="425" font-size="11" fill="#f44336">Red wire</text>
+
+  <text x="370" y="455" font-size="11" fill="#333">Pin 5 (PWM)</text>
+  <text x="560" y="455" font-size="11" fill="#333">→ Resistor → Green leg</text>
+  <text x="720" y="455" font-size="11" fill="#4CAF50">Green wire</text>
+
+  <text x="370" y="485" font-size="11" fill="#333">Pin 3 (PWM)</text>
+  <text x="560" y="485" font-size="11" fill="#333">→ Resistor → Blue leg</text>
+  <text x="720" y="485" font-size="11" fill="#2196F3">Blue wire</text>
+
+  <text x="370" y="515" font-size="11" fill="#333">GND</text>
+  <text x="560" y="515" font-size="11" fill="#333">→ GND rail → Longest leg</text>
+  <text x="720" y="515" font-size="11" fill="#333">Black wire</text>
+
+  <text x="570" y="560" text-anchor="middle" font-size="11" fill="#c62828" font-weight="bold">⚠ ALWAYS use a 220Ω resistor with each LED leg — without it, the LED burns out!</text>
+</svg>

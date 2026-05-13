@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="monospace">
+  <!-- Board outline -->
+  <rect x="50" y="50" width="700" height="380" rx="10" fill="#1565C0" stroke="#0D47A1" stroke-width="3"/>
+
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#333">ELEGOO Mega 2560 - Top View</text>
+
+  <!-- USB Port -->
+  <rect x="60" y="180" width="60" height="40" rx="3" fill="#888" stroke="#555" stroke-width="2"/>
+  <text x="90" y="205" text-anchor="middle" font-size="11" fill="white">USB-B</text>
+  <text x="90" y="240" text-anchor="middle" font-size="10" fill="#FFF59D">← Plug cable here</text>
+
+  <!-- Power Jack -->
+  <rect x="60" y="280" width="50" height="35" rx="15" fill="#333" stroke="#111" stroke-width="2"/>
+  <text x="85" y="302" text-anchor="middle" font-size="9" fill="white">PWR</text>
+
+  <!-- Power LED -->
+  <circle cx="150" cy="350" r="6" fill="#4CAF50"/>
+  <text x="150" y="375" text-anchor="middle" font-size="10" fill="#C8E6C9">ON LED</text>
+
+  <!-- Built-in LED (L) -->
+  <circle cx="200" cy="350" r="6" fill="#FF9800"/>
+  <text x="200" y="375" text-anchor="middle" font-size="10" fill="#FFE0B2">L LED</text>
+
+  <!-- Digital pins header (top) -->
+  <rect x="150" y="60" width="550" height="25" rx="3" fill="#333"/>
+  <text x="425" y="78" text-anchor="middle" font-size="10" fill="#FFF">DIGITAL PINS 0-53</text>
+
+  <!-- Key pins labeled -->
+  <rect x="680" y="60" width="20" height="25" fill="#FF5722" rx="2"/>
+  <text x="690" y="100" text-anchor="middle" font-size="9" fill="#FF5722">Pin 2</text>
+  <text x="690" y="112" text-anchor="middle" font-size="8" fill="#999">(IR)</text>
+
+  <rect x="640" y="60" width="20" height="25" fill="#2196F3" rx="2"/>
+  <text x="650" y="100" text-anchor="middle" font-size="9" fill="#2196F3">Pin 3</text>
+  <text x="650" y="112" text-anchor="middle" font-size="8" fill="#999">(Blue)</text>
+
+  <rect x="560" y="60" width="20" height="25" fill="#4CAF50" rx="2"/>
+  <text x="570" y="100" text-anchor="middle" font-size="9" fill="#4CAF50">Pin 5</text>
+  <text x="570" y="112" text-anchor="middle" font-size="8" fill="#999">(Green)</text>
+
+  <rect x="520" y="60" width="20" height="25" fill="#f44336" rx="2"/>
+  <text x="530" y="100" text-anchor="middle" font-size="9" fill="#f44336">Pin 6</text>
+  <text x="530" y="112" text-anchor="middle" font-size="8" fill="#999">(Red)</text>
+
+  <rect x="440" y="60" width="20" height="25" fill="#9C27B0" rx="2"/>
+  <text x="450" y="100" text-anchor="middle" font-size="9" fill="#9C27B0">Pin 8</text>
+  <text x="450" y="112" text-anchor="middle" font-size="8" fill="#999">(Buzzer)</text>
+
+  <rect x="360" y="60" width="20" height="25" fill="#FF9800" rx="2"/>
+  <text x="370" y="100" text-anchor="middle" font-size="9" fill="#FF9800">Pin 10</text>
+  <text x="370" y="112" text-anchor="middle" font-size="8" fill="#999">(CLK)</text>
+
+  <rect x="320" y="60" width="20" height="25" fill="#FF9800" rx="2"/>
+  <text x="330" y="100" text-anchor="middle" font-size="9" fill="#FF9800">Pin 11</text>
+  <text x="330" y="112" text-anchor="middle" font-size="8" fill="#999">(CS)</text>
+
+  <rect x="280" y="60" width="20" height="25" fill="#FF9800" rx="2"/>
+  <text x="290" y="100" text-anchor="middle" font-size="9" fill="#FF9800">Pin 12</text>
+  <text x="290" y="112" text-anchor="middle" font-size="8" fill="#999">(DIN)</text>
+
+  <!-- Analog pins header (bottom) -->
+  <rect x="150" y="400" width="400" height="25" rx="3" fill="#333"/>
+  <text x="350" y="418" text-anchor="middle" font-size="10" fill="#FFF">ANALOG PINS A0-A15</text>
+
+  <!-- Power pins -->
+  <rect x="580" y="400" width="120" height="25" rx="3" fill="#333"/>
+  <text x="640" y="418" text-anchor="middle" font-size="10" fill="#FFF">5V  GND  3.3V</text>
+
+  <!-- GND/5V labels -->
+  <rect x="600" y="400" width="20" height="25" fill="#f44336" rx="2"/>
+  <text x="610" y="445" text-anchor="middle" font-size="9" fill="#f44336">5V</text>
+
+  <rect x="640" y="400" width="20" height="25" fill="#333" rx="2" stroke="#fff" stroke-width="1"/>
+  <text x="650" y="445" text-anchor="middle" font-size="9" fill="#333">GND</text>
+
+  <!-- Microcontroller chip -->
+  <rect x="250" y="200" width="300" height="120" rx="5" fill="#212121" stroke="#424242" stroke-width="2"/>
+  <text x="400" y="265" text-anchor="middle" font-size="12" fill="#78909C">ATmega2560</text>
+
+  <!-- Reset button -->
+  <circle cx="170" cy="150" r="12" fill="#f44336" stroke="#b71c1c" stroke-width="2"/>
+  <text x="170" y="155" text-anchor="middle" font-size="8" fill="white">RST</text>
+
+  <!-- Legend -->
+  <rect x="50" y="455" width="700" height="35" rx="5" fill="#ECEFF1"/>
+  <text x="400" y="477" text-anchor="middle" font-size="12" fill="#333">Our project pins: 2(IR) · 3,5,6(RGB) · 8(Buzzer) · 10,11,12(LED Matrix)</text>
+</svg>
